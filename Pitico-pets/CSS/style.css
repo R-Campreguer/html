@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* Estilos para telas maiores */
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/gradiente.png);
+    font-family: Fantasy;
+  }
+
+  div {
+    color: white;
+    text-shadow: 4px 4px 10px black;
+  }
+
+  .divtitulo {
+    text-align: center;
+  }
+
+  .titulo {
+    text-align: center;
+    background-color: #F2A057;
+    border-radius: 40%;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  main {
+    background-color: #21bfbf;
+    height: auto;
+    width: auto;
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    margin-bottom: 4.5%;
+    padding-top: 1px;
+    padding-left: 25.5%;
+    padding-right: 25.5%;
+    padding-bottom: 3%;
+    text-align: justify;
+    font-size: 150%;
+  }
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 767px) {
+  body {
+    background-image: url(../img/gradiente.png);
+    font-family: Fantasy;
+  }
+
+  div {
+    color: white;
+    text-shadow: 5px 4px 10px black;
+  }
+
+  .divtitulo {
+    text-align: center;
+  }
+
+  .titulo {
+    text-align: center;
+    background-color: #F2A057;
+    border-radius: 40%;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  main { 
+    
+    background-image: url(../img/20240502_205827_0000.png);
+    background-repeat: repeat ;
+    background-size: 500px 600px ;
+    height: auto;
+    width: 90%;
+    border-radius: 20px;
+     margin-top: 5.5%;
+    margin-left: 5.5 %;
+    margin-right: 5.5%;
+    margin-bottom: 5.5%;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20%;
+    
+      }
+  
+.link {text-align: center;}
+  
+  .image1, .image2, .image3 {
+    max-width: 100%;
+    height: auto;
+  }
+}
